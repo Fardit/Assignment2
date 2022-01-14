@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+Body {
+    font-family: 'Goldman', cursive;
+    font-size: large;
+}
+.header-menu{
+    width: 100%;
+    display: flex;
+    padding-left: 5em;
+    margin-top: 50px;
+    
+}
+.header{
+    flex: 1;
+}
+.menu{
+    flex: 1; 
+}
+nav a{
+    text-decoration: none;
+    padding: 1em;
+    color: black;
+}
