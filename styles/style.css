@@ -9,6 +9,7 @@ Body {
 }
 .header-menu{
     width: 90%;
+    height: 70%;
     display: flex;
     padding-left: 5em;
     margin-top: 50px;
@@ -54,4 +55,25 @@ nav a{
     color: #E03B8B;
     font-size: 1em;
     cursor: pointer;
+}
+.brands{
+    margin-right: 10em;
+    margin-left: 10em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(230, 213, 213);
+    border-bottom: 1px solid rgb(230, 213, 213);
+}
+.brand{
+    display: flex;
+    list-style: none;
+    justify-content:center;
+}
+.brand li{
+    padding: 1em;
+}
+.mid-header{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
 }
