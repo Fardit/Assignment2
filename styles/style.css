@@ -1,4 +1,10 @@
+/*--------------------------------
+             Font added 
+---------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+/*----------------------------------
+            for all zero 
+----------------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +13,9 @@ Body {
     font-family: 'Goldman', cursive;
     font-size: large;
 }
+/*-----------------------------
+        header and menu 
+-----------------------------*/
 .header-menu{
     width: 90%;
     height: 70%;
@@ -15,9 +24,15 @@ Body {
     margin-top: 50px;
     
 }
+/*----------------------------------
+            to make portion 
+-----------------------------------*/
 .header{
     flex: 1;
 }
+/*----------------------------------
+            navigation
+-----------------------------------*/
 nav a{
     text-decoration: none;
     padding: 1em;
@@ -37,6 +52,9 @@ nav a{
     width: 100%;
 
 }
+/*---------------------------------------
+                preebook button 
+----------------------------------------*/
 .buttons{
     background-color: #E03B8B;
     color: white ;
@@ -49,6 +67,9 @@ nav a{
     text-align: center;
     transition: 0.7s;
 }
+/*-----------------------------------------
+                Button hover 
+-------------------------------------------*/
 .buttons:hover{
     background-color: white;
     border: 1px solid #E03B8B;
@@ -56,6 +77,9 @@ nav a{
     font-size: 1em;
     cursor: pointer;
 }
+/*--------------------------------
+        brand extra part 
+----------------------------------*/
 .brands{
     margin-right: 10em;
     margin-left: 10em;
@@ -77,6 +101,9 @@ nav a{
     padding-top: 2em;
     padding-bottom: 1em;
 }
+/*--------------------------------
+            Products
+----------------------------------*/
 .products {
     display: grid;
     grid-template-columns: repeat(2, 3fr) 3fr;
@@ -112,9 +139,11 @@ nav a{
     color:#758283;
     font-size: 12px;
 }
+/*-----------------------------
+        see More button 
+------------------------------*/
 .see-more-button{
     text-align: right;
-    /* width: 95%; */
     padding: 2em;
 }
 .button{
@@ -122,6 +151,9 @@ nav a{
     color: #E03B8B;
     font-size: 1em; 
 }
+/*---------------------------------------
+         latest product extra part
+-----------------------------------------*/
 .latest-product-head{
     padding-left: 1.5em;
     font-size: larger;
@@ -147,6 +179,9 @@ nav a{
 .latest-products h4{
     font-size: 12px;
 }
+/*---------------------------------------
+         explore more button 
+----------------------------------------*/
 .explore-more{
     padding-top: 4em;
     
@@ -164,6 +199,9 @@ nav a{
     font-size: 12px;
     display: flex;
 }
+/*-------------------------------
+             footer 
+---------------------------------*/
 footer{
     margin-top: 3em;
     font-family: arial;
