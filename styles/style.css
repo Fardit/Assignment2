@@ -164,3 +164,30 @@ nav a{
     font-size: 12px;
     display: flex;
 }
+footer{
+    margin-top: 3em;
+    font-family: arial;
+    background-color: #120E43;
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-stretch: expanded;
+    font-weight: 700;
+
+}
+footer h1{
+    font-size: 26px;
+}
+footer h3{
+    font-size: 20pxem;
+}
+footer ul{
+    display: flex;
+    justify-content:center;
+    list-style: none;
+}
+footer> ul> a{
+    padding: 0.5em;
+    color: white;
+}
