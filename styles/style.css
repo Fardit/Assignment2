@@ -8,7 +8,7 @@ Body {
     font-size: large;
 }
 .header-menu{
-    width: 100%;
+    width: 90%;
     display: flex;
     padding-left: 5em;
     margin-top: 50px;
@@ -17,11 +17,41 @@ Body {
 .header{
     flex: 1;
 }
-.menu{
-    flex: 1; 
-}
 nav a{
     text-decoration: none;
     padding: 1em;
     color: black;
+}
+.header h1{
+    padding-top: 3em;
+    width: 60%;
+}
+.header p{
+    text-align: justify;
+    width: 80%;
+    font-size: 16px;  
+}
+.header img{
+    height: 90%;
+    width: 100%;
+
+}
+.buttons{
+    background-color: #E03B8B;
+    color: white ;
+    border: 1px solid #E03B8B;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.7s;
+}
+.buttons:hover{
+    background-color: white;
+    border: 1px solid #E03B8B;
+    color: #E03B8B;
+    font-size: 1em;
+    cursor: pointer;
 }
