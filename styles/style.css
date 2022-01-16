@@ -1,3 +1,4 @@
+
 /*--------------------------------
              Font added 
 ---------------------------------*/
@@ -475,5 +476,238 @@ footer> span> a{
         color: white;
     }
     
+}
+
+/* big screen */
+
+
+
+
+@media only screen and (min-width:1080px) {
+    Body {
+        font-family: 'Goldman', cursive;
+        font-size: large;
+    }
+    /*-----------------------------
+            header and menu 
+    -----------------------------*/
+    .header-menu{
+        width: 90%;
+        height: 70%;
+        display: flex;
+        padding-left: 5em;
+        margin-top: 50px;
+        
+    }
+    /*----------------------------------
+                to make portion 
+    -----------------------------------*/
+    .header{
+        flex: 1;
+    }
+    /*----------------------------------
+                navigation
+    -----------------------------------*/
+    nav a{
+        text-decoration: none;
+        padding: 1em;
+        color: black;
+    }
+    .header h1{
+        padding-top: 3em;
+        width: 60%;
+    }
+    .header p{
+        text-align: justify;
+        width: 80%;
+        font-size: 16px;  
+    }
+    .header img{
+        height: 90%;
+        width: 100%;
+    
+    }
+    /*---------------------------------------
+                    preebook button 
+    ----------------------------------------*/
+    .buttons{
+        background-color: #E03B8B;
+        color: white ;
+        border: 1px solid #E03B8B;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 20px;
+        text-align: center;
+        transition: 0.7s;
+    }
+    /*-----------------------------------------
+                    Button hover 
+    -------------------------------------------*/
+    .buttons:hover{
+        background-color: white;
+        border: 1px solid #E03B8B;
+        color: #E03B8B;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    /*--------------------------------
+            brand extra part 
+    ----------------------------------*/
+    .brands{
+        margin-right: 10em;
+        margin-left: 10em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid rgb(230, 213, 213);
+        border-bottom: 1px solid rgb(230, 213, 213);
+    }
+    .brand{
+        display: flex;
+        list-style: none;
+        justify-content:center;
+    }
+    .brand li{
+        padding: 1em;
+        
+    }
+    .mid-header{
+        text-align: center;
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+    /*--------------------------------
+                Products
+    ----------------------------------*/
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 3fr) 3fr;
+        grid-gap: 40px 20px;
+        justify-content:space-evenly;
+        padding-left: 4em;
+        padding-bottom: 2em;
+    }
+    
+    .product {
+        width: 350px;
+        height: 450px;
+        border: 7px solid whitesmoke;
+        box-shadow: 7px 7px 12px gray;
+        border-radius: 7px;
+        padding: 7px;
+        
+    }
+    .product img{
+        width: 100%;
+    }
+    .fa-star{
+        color: #F7CD2E;
+        font-size: 10px;
+    }
+    .product p{
+        text-align: justify;
+        font-size: 10px;
+        color: #758283;
+    }
+    .product span{
+        margin-left: 1em;
+        color:#758283;
+        font-size: 12px;
+    }
+    /*-----------------------------
+            see More button 
+    ------------------------------*/
+    .see-more-button{
+        text-align: right;
+        padding: 2em;
+    }
+    .button{
+        text-decoration: none;
+        color: #E03B8B;
+        font-size: 1em; 
+    }
+    /*---------------------------------------
+             latest product extra part
+    -----------------------------------------*/
+    .latest-product-head{
+        padding-left: 1.5em;
+        font-size: larger;
+    }
+    .latest-products{
+        display: flex;
+        padding-left: 2em;
+        padding-right: 3em;
+        width: 200px; 
+        height: 200px;
+    }
+    .latest-product{
+        margin: 10px;
+        padding: 1em;
+        border: 7px solid whitesmoke;
+        box-shadow: 7px 7px 12px gray;
+        border-radius: 7px;
+    }
+    .latest-products img{
+        width: 160px;
+        height: 100px;
+    }
+    .latest-products h4{
+        font-size: 12px;
+    }
+    /*---------------------------------------
+             explore more button 
+    ----------------------------------------*/
+    .explore-more{
+        padding-top: 4em; 
+        
+    }
+    
+    .explore-button{
+        width: 100px;
+        height: 100px;
+        color: #E03B8B; 
+        border: 1px white;
+        margin: 0px;
+        text-decoration: none;
+        /* padding: 1em; */
+        font-size: 12px;
+        display: flex;
+    }
+    /*-------------------------------
+                 footer 
+    ---------------------------------*/
+    footer{
+        margin-top: 3em;
+        font-family: arial;
+        background-color: #120E43;
+        color: white;
+        text-align: center;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        font-stretch: expanded;
+        font-weight: 700;
+    
+    }
+    footer h1{
+        font-size: 26px;
+        padding-bottom: 5px;
+        
+    }
+    footer h3{
+        font-size: 20px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    footer span{
+        display: flex;
+        justify-content:center;
+        list-style: none;
+    }
+    footer> span> a{
+        padding: 0.5em;
+        color: white;
+    }
+
 }
 
