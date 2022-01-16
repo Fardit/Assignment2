@@ -44,7 +44,6 @@ nav a{
 }
 .header p{
     text-align: justify;
-    text-align: center;
     width: 80%;
     font-size: 16px;  
 }
@@ -96,6 +95,7 @@ nav a{
 }
 .brand li{
     padding: 1em;
+    
 }
 .mid-header{
     text-align: center;
@@ -184,8 +184,7 @@ nav a{
          explore more button 
 ----------------------------------------*/
 .explore-more{
-    padding-top: 4em;
-    
+    padding-top: 4em; 
     
 }
 
@@ -194,7 +193,7 @@ nav a{
     height: 100px;
     color: #E03B8B; 
     border: 1px white;
-    margin: white;
+    margin: 0px;
     text-decoration: none;
     /* padding: 1em; */
     font-size: 12px;
@@ -225,12 +224,12 @@ footer h3{
     padding-bottom: 5px;
     padding-top: 5px;
 }
-footer ul{
+footer span{
     display: flex;
     justify-content:center;
     list-style: none;
 }
-footer> ul> a{
+footer> span> a{
     padding: 0.5em;
     color: white;
 }
@@ -276,7 +275,6 @@ footer> ul> a{
         width: 100%;
         margin: 0;
         display: flex;
-        list-style: none;
         
     }
     .brand li{
@@ -318,17 +316,18 @@ footer> ul> a{
         margin-bottom: 2em;
     }
     .latest-products{
-    display: block;
-    padding-left: 0em;
-    padding-right: 0em;
-    width: 90%; 
-    height: 100%;
-    margin: auto;
+        display: block;
+        padding-left: 0em;
+        padding-right: 0em;
+        width: 90%; 
+        height: 100%;
+        margin: auto;
     
     }
     .latest-product{
         text-align: center;
         margin: 0px;
+        margin-bottom: 1em;
         padding: 0em;
         border: 7px solid whitesmoke;
         box-shadow: 7px 7px 12px gray;
@@ -349,7 +348,7 @@ footer> ul> a{
         height: 30px;
         color: #E03B8B; 
         border: 0px white;
-        margin:0 white;
+        margin: 0px;
         text-decoration: none;
         font-size: 12px;
         display: block;
@@ -380,7 +379,101 @@ footer> ul> a{
 
 
 -------------------------------------------------*/
-@media only screen and (min-width:768) and (max-width: 1280) {
+@media only screen and (min-width:699px) and (max-width: 1280px) {
+    .header-menu{
+            width: 100%;
+            height: 70%;
+            display: flex;
+            padding-left: 0em;
+            margin-top: 50px;
+            
+        }
+    .header{
+        width: 100%;
+       
+        text-align: center;
+    }
+    .header h1{
+        padding-top: 3em;
+        width: 100%;
+        text-align: center;
+    }
+    .header p{
+        text-align:center;
+        padding-left:1em  
+    }
+    .brands{
+        width:100%;
+        padding-right: 0px;
+        margin-right: 0em;
+        margin-left: 0em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid rgb(230, 213, 213);
+        border-bottom: 1px solid rgb(230, 213, 213);
+        margin: auto;
+    }
+    .brand{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(3,2fr)1fr;
+        list-style: none;
+        margin: auto;
+        padding: 0px;
+    }
+    .brand li{ 
+        margin: 0;
+        padding: 20px;;   
+    }
+    .products{
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .product{
+        width: 90%;
+        margin: auto;
+        padding: 0px; 
+
+    }
+    .latest-products{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0;
+        padding-bottom: 13em;
+    }
+    footer{
+        margin-top: 3em;
+        font-family: arial;
+        background-color: #120E43;
+        color: white;
+        text-align: center;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        font-stretch: expanded;
+        font-weight: 700;
+    
+    }
+    footer h1{
+        font-size: 26px;
+        padding-bottom: 5px;
+        
+    }
+    footer h3{
+        font-size: 20px;
+        padding-bottom: 0px;
+        padding-top: 5px;
+    }
+    footer span{
+        display: flex;
+        justify-content:center;
+        list-style: none;
+    }
+    footer> span> a{
+        padding: 0.5em;
+        color: white;
+    }
     
 }
 
